@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+    .container {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        
+
+        .order-container {
+            background-color: white;
+            border-radius: 15px 15px 15px 15px ;
+            align-items: center;
+            text-align: center;
+            
+           
+
+            .image-container {
+
+                img {
+                        border-radius: 15px 15px 0px 0px ;
+                        max-height: fit-content;
+                }
+                
+            }
+
+            .detail-container {
+                padding: 2em 1em;
+         
+                .description {
+                    line-height: 1.5em;
+                    font-size: 1em;
+                    margin-bottom: 1.5rem;
+                    padding: 0 1.2em;
+                    color: hsl(224, 23%, 55%);
+                }
+
+                .plan {
+                    border-radius: 15px;
+                    background-color: hsl(225, 100%, 98%);
+                    padding: 1em;
+                    margin-bottom: 1em;
+
+                    ul {
+                        display: grid;
+                        grid-template-columns: 1fr 2fr 2fr;
+                        grid-gap: 15px;
+                        align-items: center;   
+                        
+                        .price {
+                            font-weight: 100;
+                            font-size: small;
+                            color: hsl(224, 23%, 55%);
+
+                        }
+                        .change {
+                            text-align: right;
+                            font-size: .85rem;
+                            
+                            &:hover {
+                                text-decoration: none;
+                                color: #766cf1;
+                            }
+                        }
+                    }
+                    
+                    
+            }
+
+            .payment-plan {
+                button {
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: .75em;
+                    border-style: none;
+                    font-size: .85rem;
+                    font-weight: 700;
+                    background-color: hsl(245, 75%, 52%);
+                    color: white;  
+                    margin-bottom: 1.5rem;
+                    transition: 0.3s;
+                    
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #766cf1; 
+                        text-decoration: none;
+                    }
+                }
+
+                .cancel {
+                    font-size: .85rem;
+                    font-weight: 700;
+                    color: hsl(224, 23%, 55%);
+                    transition: 0.3s;
+                    text-decoration: none;
+
+
+                    &:hover {
+                        color:  hsl(223, 47%, 23%);
+                        
+
+                    }
+
+                }
+            }
+
+        }
+      }
+    }
+
+@media screen and (max-width: 500px) {
+        .container {
+            max-width: 350px;
+        }
+}
