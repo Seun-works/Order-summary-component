@@ -1,8 +1,8 @@
-#Order summary card.
+## ORDER SUMMARY CARD.
 
 This is an order summary card which followed the design gotten from frontend mentor.
 
-## Table of contents
+### Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
