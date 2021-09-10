@@ -29,7 +29,7 @@ This project primarily focused on the hover states of the buttons and links on t
 
 ### Links
 
-- Live Site URL: [Live Project site](https://seun-works.github.io/Order-summary-component/)
+- Live Site URL: [Order summary](https://seun-works.github.io/Order-summary-component/)
 
 ## My process
 
